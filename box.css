@@ -1,0 +1,11 @@
+.border{
+    background-color: blue;
+    display: flex;
+    
+}
+.border div{
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
