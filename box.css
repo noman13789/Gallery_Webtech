@@ -1,11 +1,14 @@
-.border{
-    background-color: blue;
-    display: flex;
+
+.border {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     
+    align-content: start;
 }
-.border div{
-    background-color: green;
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
+
+.border img {
+    width: 180px;
+    height: 180px;
+    display: block;
 }
